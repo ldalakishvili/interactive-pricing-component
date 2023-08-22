@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>interactive-pricing-component</title>
+</head>
+<body>
+  <div class="main-section">
+    <div class="top">
+      <h2 class="title">Simple, traffic-based pricing</h2>
+      <p class="top-p">Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <div class="main-info">
+      <div class="info">
+        <p class="views">100K PAGEVIEWS </p>
+        <div class="price-box desktop">
+          <p class="price"> $16.00</p>
+          <p class="month">/ month</p>
+        </div>
+      </div>
+      <div class="motion-div">
+          <input type="range" min="1" max="5" id="range" class="line" 
+          >
+      </div>
+      <div class="price-box mobile">
+        <p class="price"> $16.00</p>
+        <p class="month">/ month</p>
+      </div>
+      <div class="billing">
+        <p class="period">Monthly Billing </p>
+        <div class="turner"> 
+          <div class="circle"> </div>
+        </div>
+        <p class="period">Yearly Billing</p>
+        <p class="discount"> 25% <span class="appear" >discount</span></p>
+      </div>
+      <div class="border-line"></div>
+      <div class="trial">
+
+        <div class="pros">
+          <div class="pro"> <img src="./images/icon-check.svg" alt="chekc"> <p class="period">Unlimited websites </p></div>
+          <div class="pro"> <img src="./images/icon-check.svg" alt="chekc">
+            <p class="period">100% data ownership </p>
+          </div>
+          <div class="pro"> <img src="./images/icon-check.svg" alt="chekc">
+            <p class="period"> Email reports</p>
+          </div>
+          
+        </div>
+        <div class="button"> Start my trial</div>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

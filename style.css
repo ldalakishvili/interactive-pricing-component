@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+*{
+ font-family: 'Manrope', sans-serif;
+}
+
+html{
+ font-size: 62.5%;
+}
+
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url(./images/bg-pattern.svg);
+ background-repeat: no-repeat;
+ background-color: hsl(230, 100%, 99%);
+}
+.main-section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ gap: 5.4rem;
+ margin-top:6.7rem ;
+}
+.top{
+ display: flex;
+ flex-direction: column;
+ gap: 1.2rem;
+ padding: 3.7rem 0;
+ max-width: 37.5rem;
+ width: 100%;
+background-image: url(./images/pattern-circles.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+.title{
+ font-size: 2.8rem;
+ font-weight: 800;
+ line-height: 3.8rem;
+ letter-spacing: 0px;
+ white-space: nowrap;
+ color: rgba(41, 51, 86, 1);
+}
+.top-p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 0px;
+  color: rgba(132, 142, 173, 1);
+}
+.main-info{
+ background-color: rgba(255, 255, 255, 1);
+ border-radius: 1rem;
+ box-shadow:0px 6px 17px -8px ;
+}
+.info{
+ display: flex;
+ align-items: center;
+ gap: 10.3rem;
+margin: 4rem 4.8rem 4rem 4.6rem;
+}
+.views{
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.9rem;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+.price-box{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.price{
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 5.5rem;
+  letter-spacing: -1px;
+  text-align: right;
+  color: rgba(41, 51, 86, 1);
+}
+.month{
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+.mobile{
+  display: none;
+}
+.motion-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="range"]{
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: linear-gradient(to right, rgba(164, 243, 235, 1) 50%, rgba(236, 240, 251, 1) 50%);
+
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+      appearance: none;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(16, 216, 196, 1);
+    border-radius: 50%;
+    box-shadow: 0px 21px 18px -1px rgba(128, 255, 243, 1);
+    background-image: url(./images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+}
+.line {
+max-width: 44.4rem;
+width: 100%;
+height: 8px;
+background-image: linear-gradient( to right, rgba(164, 243, 235, 1) 50%, rgba(236, 240, 251, 1) 50% ) ;
+/* justify-content: center; */
+border-radius: 2rem;
+margin-bottom:5.6rem ;
+cursor: pointer;
+}
+.billing{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right:6.5rem ;
+}
+.period{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+.turner{
+  width: 4.3rem;
+  height: 2.2rem;
+  background-color:rgba(207, 216, 239, 1) ;
+  border: solid 4px transparent;
+  border-radius: 2rem;
+  margin: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  transition:background-color  0.3s ease-in-out;
+}
+.active{
+  justify-content: end;
+}
+.turner:hover{
+  cursor: pointer;
+  background-color: rgba(122, 234, 223, 1);
+}
+.circle{
+  width:14px;
+  height: 14px;
+  background-color: white;
+  border-radius: 2rem;
+}
+.discount{
+background-color: rgba(254, 237, 232, 1);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color:rgba(255, 141, 104, 1) ;
+  padding: 0.3rem 0.6rem;
+  margin-left: 0.9rem;
+  border-radius: 2rem;
+}
+.border-line{
+  width: 100%;
+  height: 1px;
+  background-color:rgba(236, 240, 251, 1) ;
+  margin:4rem 0 3.2rem;
+}
+.trial{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 13rem;
+margin-bottom: 3.2rem;
+}
+.pros{
+  display: flex;
+  flex-direction: column;
+  gap:1rem ;
+}
+.pro{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.pro img{
+  width: 6px;
+  height: 5px;
+}
+.button{
+  background-color:rgba(41, 51, 86, 1);
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(190, 205, 255, 1);
+    padding:1.2rem 4.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+
+}
+.button:hover{
+  cursor: pointer;
+  color: white;
+}
+
+@media(max-width:540px){
+  .main-info{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+max-width: 32.7rem;
+margin-bottom: 8.8rem;
+  }
+.top{
+  max-width: 32.6rem;
+  align-items: center;
+}
+.title {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.top-p {
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+max-width: 17.5rem;
+}
+
+.mobile {
+  display: flex;
+}
+.desktop{
+  display: none;
+}
+.info{
+  margin: 3.4rem 10.1rem 4rem ;
+  justify-content: center;
+}
+.views {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  white-space: nowrap;
+}
+.price-box{
+
+  margin:4rem  auto 3.4rem;
+
+}
+.price {
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  gap: 1rem;
+}
+
+.month {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+}
+.motion-div {
+  max-width: 44.4rem;
+    width: 100%;
+}
+
+.line {
+  max-width: 27.9rem;
+  margin: 0;
+}
+
+.billing {
+  align-self: right;
+  margin-right: 1.1rem;
+}
+
+.appear{
+  display: none;
+}
+.discount {
+  margin-left: 0.5rem;
+}
+
+.border-line {
+  margin: 3.8rem 0 2.4rem;
+}
+
+.trial {
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+
+}
